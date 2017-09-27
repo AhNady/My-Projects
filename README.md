@@ -25,3 +25,7 @@ Responsiblities:
 ### Simple Journey in the app:
 
 - You can login using the intial created user (Admin/admin)
+![alt text](https://github.com/AhNady/My-Projects/blob/master/Login.PNG)
+
+- After login you will be directed to the Main page and as you are admin you will be able to view the employees data as shown below 
+![alt text](https://github.com/AhNady/My-Projects/blob/master/Login.PNG)
