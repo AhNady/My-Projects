@@ -3,7 +3,7 @@ In this tool there is a two types of users:
 
 ##### Employee
 Responsibilties: 
-- Can only view his own data and the company benifts (offers)
+- Can only view his own data and the company benifts (offers) and search for an offer.
 ##### HR Admin
 Responsiblities:
 - Add/update/delete/view users (Employee, HR Admin)
@@ -29,6 +29,12 @@ Responsiblities:
 
 - After login you will be directed to the Main page where you can view your data and also can edit in it and as you are admin you will be able to view the employees data as shown below 
 ![alt text](https://github.com/AhNady/My-Projects/blob/master/AdminMainPage.PNG)
+
+- You can now view all the employees data including you and you can delete any one but you cannot delete yourself
+![alt text](https://github.com/AhNady/My-Projects/blob/master/EmployeesList.PNG)
+
+- You can also edit any employee data
+![alt text](https://github.com/AhNady/My-Projects/blob/master/EditEmployeeData.PNG)
 
 - You can view all the company offers also you can delete the offer if you have HRADMIN Role as shown below
 ![alt text](https://github.com/AhNady/My-Projects/blob/master/OfferPage.PNG)
