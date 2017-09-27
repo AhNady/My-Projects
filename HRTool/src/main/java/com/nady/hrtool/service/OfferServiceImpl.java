@@ -25,12 +25,7 @@ public class OfferServiceImpl implements OfferService {
 		return offer;
 	}
 
-	/*
-	 * Since the method is running with Transaction, No need to call hibernate
-	 * update explicitly. Just fetch the entity from db and update it with
-	 * proper values within transaction. It will be updated in db once
-	 * transaction ends.
-	 */
+
 	public void updateOffer(Offer offer) {
 		Offer entity = dao.findById(offer.getId());
 		if (entity != null) {

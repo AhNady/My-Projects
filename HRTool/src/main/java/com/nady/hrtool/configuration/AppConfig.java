@@ -50,7 +50,7 @@ public class AppConfig extends WebMvcConfigurerAdapter{
     
     /**
      * Configure Converter to be used.
-     * In our example, we need a converter to convert string values[Roles] to UserProfiles in newUser.jsp
+     * Converter to convert string values[Roles] to UserProfiles in newUser.jsp
      */
     @Override
     public void addFormatters(FormatterRegistry registry) {
