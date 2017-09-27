@@ -22,6 +22,10 @@ Responsiblities:
 - Deploy the war in any Application server
 - No DB scripts needed as the DB tables will be created automatically
 
+### What if this backend will serve, website, mobile, tablets and so on, what is your design will be to implement such a need, and how you will expose your services?
+
+The design will be by decoupling the backend services from the frontend and exposing all the used services as a RESTful services over HTTP, as the current implemented application use the MVC pattern but the backend services not exposed to be used in different platforms. 
+
 ### Simple Journey in the app:
 
 - You can login using the intial created user (Admin/admin)
